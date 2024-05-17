@@ -1,0 +1,27 @@
+@using first_project.models
+
+@page "/produits/create"
+
+<PageTitle>Ajout de produits</PageTitle>
+
+<center>
+    <div class="card p-3 col-xl-6 text-align-center">
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Nom du produit</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Prix du produit</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+ 
+  <div class="d-flex justify-content-between">
+    <a href="products" class="btn btn-danger">Retour</a>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </div>
+</form>
+
+</div>
+</center>

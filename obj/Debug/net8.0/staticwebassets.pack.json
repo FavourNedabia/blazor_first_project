@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\web-applications\\blazo-applications\\first-project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\first-project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\first-project.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\web-applications\\blazo-applications\\first-project\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\web-applications\\blazo-applications\\first-project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\web-applications\\blazo-applications\\first-project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\web-applications\\blazo-applications\\first-project\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.first-project.props",
+      "PackagePath": "build\\first-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.first-project.props",
+      "PackagePath": "buildMultiTargeting\\first-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.first-project.props",
+      "PackagePath": "buildTransitive\\first-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.first-project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,43 @@
+@using first_project.models
+
+@page "/products"
+
+
+
+<PageTitle>List des produits</PageTitle>
+
+<div class="d-flex justify-content-between">
+    <h1>Lists des produits</h1>
+    <a href="/produits/create" class="btn btn-primary">Ajouter un produit</a>
+</div>
+<div class="container m-3">
+    <div class="row">
+         @foreach(var Produit in Produits)
+    {
+     <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">@Produit.Nom</h5>
+        <p class="card-text">Prix : @Produit.Prix OXF</p>
+        <a href="#" class="btn btn-primary">Acheter</a>
+      </div>
+    </div>
+  </div>
+   
+    }
+    </div>
+</div>
+
+@code {
+
+     List<Produit> Produits = new List<Produit>(){
+        };
+
+    protected override async Task OnInitializedAsync() {
+        Produits.AddRange( new List<Produit>(){
+            new Produit (1,"Kalipo",250),
+            new Produit (2,"Holandia",100),
+            new Produit (3,"bingo",200),});
+    }
+    
+}
